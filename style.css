@@ -19,7 +19,7 @@
 
 .task {
     display: grid;
-    /* gap: 1rem; */
+    height: 70px;
 }
 
 .task1 {
@@ -236,28 +236,135 @@
 /* TASK 8 */
 
 .task8 {
-    /* justify-content: flex-end; */
+    justify-content: space-between;
     width: 100%;
-    grid-template-columns: 30px 30px 30px;
+    grid-template-columns: 30px 30px 30px 30px 30px 30px 30px 30px 30px 30px 30px 30px;
     grid-template-rows: 1fr 1fr 1fr;
 }
 
 .task8_1 {
-    grid-area: 1 / 1 / 4 / 2;
+    grid-area: 1 / 1 / 4 / 7;
 }
 
 .task8_2 {
-    grid-area: 1 / 2 / 2 / 4;
+    grid-area: 1 / 9 / 2 / 13;
 }
 
 .task8_3 {
-    grid-area: 2 / 3 / 4 / 4;
+    grid-area: 2 / 11 / 4 / 13;
 }
 
 .task8_4 {
-    grid-area: 2 / 2 / 3 / 3;
+    grid-area: 2 / 9 / 3 / 10;
 }
 
 .task8_5 {
+    grid-area: 3 / 9 / 4 / 10;
+}
+
+.task8_6 {
     grid-area: 3 / 2 / 4 / 3;
+}
+
+
+
+
+/* ====================================== */
+/* TASK 9 */
+
+.task9 {
+    width: 100%;
+    border: red 1px solid;
+    height: 200px;
+    grid-template-rows: 20% 20% 20%;
+}
+
+.task9_1 {
+    grid-area: 1 / 1 / 4 / 7;
+}
+
+.task9_2 {
+    grid-area: 1 / 7 / 2 / 13;
+}
+
+.task9_3 {
+    grid-area: 2 / 10 / 4 / 13;
+}
+
+.task9_4 {
+    grid-area: 2 / 7 / 3 / 10;
+}
+
+.task9_5 {
+    grid-area: 3 / 7 / 4 / 10;
+}
+
+
+
+
+/* ====================================== */
+/* TASK 10 */
+
+.task10 {
+    width: 100%;
+    border: red 1px solid;
+    align-content: center;
+    height: 200px;
+    grid-template-rows: 20% 20% 20%;
+}
+
+.task10_1 {
+    grid-area: 1 / 1 / 4 / 7;
+}
+
+.task10_2 {
+    grid-area: 1 / 7 / 2 / 13;
+}
+
+.task10_3 {
+    grid-area: 2 / 10 / 4 / 13;
+}
+
+.task10_4 {
+    grid-area: 2 / 7 / 3 / 10;
+}
+
+.task10_5 {
+    grid-area: 3 / 7 / 4 / 10;
+}
+
+
+
+
+
+/* ====================================== */
+/* TASK 11 */
+
+.task11 {
+    width: 100%;
+    border: red 1px solid;
+    align-content: space-between;
+    height: 200px;
+    grid-template-rows: 20% 20% 20%;
+}
+
+.task11_1 {
+    grid-area: 1 / 1 / 4 / 7;
+    
+}
+
+.task11_2 {
+    grid-area: 1 / 7 / 2 / 13;
+}
+
+.task11_3 {
+    grid-area: 2 / 10 / 4 / 13;
+}
+
+.task11_4 {
+    grid-area: 2 / 7 / 3 / 10;
+}
+
+.task11_5 {
+    grid-area: 3 / 7 / 4 / 10;
 }
